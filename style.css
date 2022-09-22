@@ -1,0 +1,152 @@
+#textocentral {
+    text-align: center;
+}
+
+.nav-link {
+    color: rgb(122, 124, 126);
+}
+
+
+#textosuperpuesto {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: right;
+    margin-right: 2%;
+}
+
+#titulosuperpuesto {
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 85.5%;
+    text-align: right;
+    margin-right: 2%;
+}
+
+#botonsuperpuesto {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    color: white;
+    border-color: white;
+}
+
+#botonsuperpuesto2 {
+    position: absolute;
+    top: 90%;
+    left: 90.5%;
+}
+
+#honolulutexto {
+    background-color: rgb(56, 53, 53);
+}
+
+#botonfinal {
+    color: aliceblue;
+    border-color: aliceblue;
+    max-width: 30%;
+}
+
+#textofinal {
+    color: aliceblue;
+}
+
+h5 {
+    color: aliceblue;
+}
+
+#imagencodo {
+    max-width: 40%;
+    max-height: 80%;
+}
+
+#confbsas {
+    color: aliceblue;
+}
+
+#tickets {
+    color: green;
+}
+
+#cards3 {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+#botonjava {
+    max-width: 30%;
+    margin-top: 5%;
+}
+
+#botonreact {
+    max-width: 30%;
+    color: white;
+    font-weight: bold;
+}
+
+#botonprimero {
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.card-title {
+    color: black;
+}
+
+.card-text {
+    text-align: left;
+}
+
+#preform {
+    text-align: center;
+}
+
+#nya {
+    max-width: 50%;
+    
+}
+
+#campogrande {
+    min-height: 180px;
+    max-width: 200em;
+}
+
+footer {
+    justify-content: space-around;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    background: rgb(16,44,91);
+    background: linear-gradient(90deg, rgba(16,44,91,1) 0%, rgba(38,83,119,1) 93%);
+    padding-left: 3%;
+    padding-right: 3%;
+    color: aliceblue;
+}
+
+#botonfinal2 {
+    min-width: 100%;
+}
+
+#tarjetas {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#recuerda {
+    margin-top: -3%;
+}
+
+#footertextos {
+    display: flex;
+
+}
+
+#footertextos a {
+    margin-inline-start: 6%;
+    justify-content: center;
+    margin-top: 1%;
+    color: aliceblue;
+}

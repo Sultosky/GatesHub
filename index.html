@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="D:\Mono\Codo a Codo\Gates\style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <div>
+            <img src="codoacodo.png" id="imagencodo" alt="codoacodo">
+            <a class="navbar-brand" href="#" id="confbsas">Conf Bs As</a>
+          </div>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">La Conferencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Los Oradores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">El Lugar y la Fecha</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Conviértete en Orador</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="tickets">Comprar Tickets</a>
+          </li>
+        </ul>
+          </div>
+        </div>
+        </div>
+    </nav>
+    
+              <img id="imagenarriba" src="ba1.jpg" alt="ba1" class="img-fluid" style="filter: brightness(50%)">
+              <h3 id="titulosuperpuesto" >Conf Bs As</h3>
+              <p id="textosuperpuesto">
+                <br>
+                Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+              </p>
+              <button id="botonsuperpuesto" class="btn btn-outline-primary">Quiero ser orador</button>
+              <button id="botonsuperpuesto2" type="button" class="btn btn-success">Comprar Tickets</button>
+
+      <br>
+      <p id="textocentral">CONOCE A LOS</p>
+      <br>
+      <p id="textocentral"><b>ORADORES</b></p>
+      <br>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div id="tarjetas" class="card h-100">
+            <img src="steve.jpg" class="card-img-top" alt="steve">
+            <br>
+            <td>
+              <form method="POST" action="{{route('admin.admins.destroy',$admin->id)}}" onsubmit="return ConfirmarBorrar()">
+                 <button id="botonprimero" type="button" class="btn btn-warning">Javascript</button>
+                 <button id="botonreact" type="button" class="btn btn-info">React</button>
+              </form>
+          </td>
+            <div class="card-body">
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minus et dolores similique qui facilis reiciendis incidunt quis eligendi, corrupti ut vel molestiae quia consectetur impedit ducimus tempora nam accusantium.</p>
+            </div>
+          </div>
+        </div>
+        <div id="menutarjetas" class="col">
+          <div id="tarjetas" class="card h-100">
+            <img src="bill.jpg" class="card-img-top" alt="bill">
+            <br>
+            <td>
+              <form method="POST" action="{{route('admin.admins.destroy',$admin->id)}}" onsubmit="return ConfirmarBorrar()">
+                 <button id="botonprimero" type="button" class="btn btn-warning">Javascript</button>
+                 <button id="botonreact" type="button" class="btn btn-info">React</button>
+              </form>
+          </td>
+            <div class="card-body">
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nemo maiores nisi enim impedit ut reprehenderit quas totam, et dolorum, culpa veritatis minus illo aspernatur temporibus molestias quibusdam rerum iusto!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div id="tarjetas" class="card h-100">
+            <img src="ada.jpg" class="card-img-top" alt="ada">
+            <br>
+            <td>
+              <form method="POST" action="{{route('admin.admins.destroy',$admin->id)}}" onsubmit="return ConfirmarBorrar()">
+                <button id="botonprimero" type="button" class="btn btn-secondary">Negocios</button>
+                <button type="button" class="btn btn-danger"><b>Startups</b></button>
+              </form>
+          </td>
+            <div class="card-body">
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione animi, fuga reprehenderit adipisci ullam iure sit facere perspiciatis doloremque. Consequatur quas perferendis enim, vero maxime suscipit debitis. Corporis, magnam?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="card mb-3" style="max-width: max-content;" id="honolulutexto">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="honolulu.jpg" class="img-fluid" alt="honolulu">
+          </div>
+          <div class="col-md-5">
+            <div class="card-body">
+              <h5 style="color: white;" class="card-title">Bs As - Octubre</h5>
+              <p class="card-text" id="textofinal">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y estado de Honolulu han formado una ciudad-condado consolidad que cubre toda la ciudad (aproximadamente 600km2 de superficie).</p>
+              <button type="button" class="btn btn-outline-primary" id="botonfinal">Conocé más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div id="preform">
+        <br>
+        <p>CONVIÉRTETE EN UN</p>
+        <br>
+        <h4><b>ORADOR</b></h4>
+        <br>
+        <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+      </div>
+      
+      <br>
+
+      <div class="row justify-content-center">
+        <div class="col-3" id="bolonqui1">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+        </div>
+        <div class="col-3" id="bolonqui2">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+        </div>
+      </div>
+
+      <br>
+      
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <input  id="campogrande" type="text" class="form-control" placeholder="Sobre qué quieres hablar?" aria-label="Desarrollo">
+          <br>
+          <p id="recuerda">Recuerda incluir un título para tu charla</p>
+          <button id="botonfinal2" type="button" class="btn btn-success">Success</button>
+        </div>
+      </div>
+      
+      <br>
+
+    <footer>
+      <div id="footertextos">
+        <a class="nav-link" href="#"> Preguntas Frecuentes </a>
+        <br>
+        <a class="nav-link" href="#"> Contáctanos </a>
+        <br>
+        <a class="nav-link" href="#"> Contáctanos </a>
+        <br>
+        <a class="nav-link" href="#"> Prensa </a>
+        <br>
+        <a class="nav-link" href="#"> Conferencias </a>
+        <br>
+        <a class="nav-link" href="#"> Términos y Condiciones </a>
+        <br>
+        <a class="nav-link" href="#"> Privacidad </a>
+        <br>
+        <a class="nav-link" href="#"> Estudiantes </a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>
